@@ -1,6 +1,5 @@
+{{navbar-tile}}
+
 {{#each model as |product|}}
-  <div class="product-panel">
-    <h2><a href={{product.viewItemURL}} target="blank">{{product.title}}</a></h2>
-    <img class="product-image" src={{product.galleryPlusPictureURL}}>
-  </div>
+  {{product-tile product=product}}
 {{/each}}

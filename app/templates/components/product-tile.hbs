@@ -1,6 +1,9 @@
-{{product.title}}
-{{product.image}}
-{{product.description}}
-{{product.cost}}
+<div class="product-panel">
+  <a href={{product.viewItemURL}} target="blank">
+    <h2>{{product.title}}</h2>
+    <img class="product-image" src={{product.galleryURL}}>
+  </a>
 
 <button {{action 'addToCart' product}}>Add to Cart</button>
+
+</div>

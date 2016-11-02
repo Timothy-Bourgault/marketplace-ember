@@ -1,16 +1,19 @@
 body{
-  margin: 8em;
+  margin: 2em;
+  background-color: black;
+  filter: invert(100%);
 }
 
 .product-panel{
   margin: 2em;
   border: black 1px solid;
   padding: 2em;
+  min-width: 30em;
 }
 
 .product-image{
   height: 12em;
-  width: auto;
+  max-width: 25em;
   display: block;
   margin-left: auto;
   margin-right: auto;
