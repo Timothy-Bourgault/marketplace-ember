@@ -1,0 +1,17 @@
+body{
+  margin: 8em;
+}
+
+.product-panel{
+  margin: 2em;
+  border: black 1px solid;
+  padding: 2em;
+}
+
+.product-image{
+  height: 12em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

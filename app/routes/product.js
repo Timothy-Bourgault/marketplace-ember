@@ -12,8 +12,8 @@ export default Ember.Route.extend({
    '&REST-PAYLOAD' +
    '&keywords=harry%20potter%20phoenix';
     return Ember.$.getJSON(url).then(function(responseJSON) {
-      console.log(responseJSON);
-      return responseJSON;
+      console.log(responseJSON.findItemsByKeywordsResponse[0].searchResult[0].item);
+      return responseJSON.findItemsByKeywordsResponse[0].searchResult[0].item;
     });
   }
 });
