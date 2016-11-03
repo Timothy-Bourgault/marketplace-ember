@@ -2,8 +2,7 @@
   <a href={{product.viewItemURL}} target="blank">
     <h2>{{product.title}}</h2>
     <img class="product-image" src={{product.galleryURL}}>
+    <p>{{product.cost}}</p>
   </a>
-
-<button {{action 'addToCart' product}}>Add to Cart</button>
-
+ <button {{action 'addToCart' product}}>Add to Cart</button>
 </div>
