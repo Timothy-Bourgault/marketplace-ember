@@ -1,5 +1,5 @@
-{{navbar-tile}}
-
-{{#each model as |product|}}
+{{navbar-tile product=model.search}}
+{{params.product}}
+{{#each model.results as |product|}}
   {{product-tile product=product}}
 {{/each}}

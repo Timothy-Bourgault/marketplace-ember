@@ -8,5 +8,5 @@ export default Ember.Component.extend({
       this.get('shoppingCart').add(item);
       console.log(this.get('shoppingCart.items'));
     }
-  }
+  }  
 });

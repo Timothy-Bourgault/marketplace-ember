@@ -1,9 +1,9 @@
 <h2>{{#link-to 'index'}}Home{{/link-to}}</h2>
-<h2>{{#link-to 'shopping-cart'}}Cart{{/link-to}}</h2>
+<h2>{{#link-to 'shopping-cart' product}}Cart{{/link-to}}</h2>
 <p>Shopping Cart Count: {{shoppingCartCount}}</p>
 <form>
   <div class="form-group">
-    <label for="product">Product:</label>
+    <label for="product">Search:</label>
     {{input value=product id="product"}}
   </div>
 
